@@ -1,0 +1,83 @@
+* {
+	color: rgb(150, 160, 168);
+}
+
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: 55%;
+	background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+	background-color: #1f2326;
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+	color: rgb(150, 160, 168);
+}
+
+.navbar .navbar-brand {
+	color: rgb(150, 160, 168);
+}
+.navbar .collapse ul li a {
+	color: rgb(150, 160, 168);
+}
+
+.navbar .container-md .navbar-toggler {
+	color: rgb(150, 160, 168);
+}
+.navbar .container-md .navbar-toggler .navbar-toggler-icon {
+	background-color: rgb(150, 160, 168);
+	border-radius: 4px;
+}
+.nav-item :hover {
+	background-color: darkgrey;
+	-webkit-text-fill-color: black;
+	border-radius: 10px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+	padding-top: 50px;
+	height: 92vh;
+	color: rgb(150, 160, 168);
+	text-shadow: -1px 4px 0px rgba(0, 0, 0, 0.6);
+	border-bottom: 2px solid black;
+}
+
+section .row .col img {
+	width: 200px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* about */
+
+.about {
+	background-color: #1f2326;
+	color: rgb(150, 160, 168);
+	text-shadow: -1px 4px 0px rgba(0, 0, 0, 0.6);
+	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+	height: auto;
+}
+
+/* contact */
+
+/* footer */
+footer {
+	height: 56px;
+	background-color: #1f2326;
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+	color: rgb(150, 160, 168);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	padding-top: 15px;
+}
